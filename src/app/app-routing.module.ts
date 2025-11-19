@@ -5,8 +5,8 @@ import { ResearchInfoComponent } from './research-info/research-info.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PublicationsComponent } from './publications/publications.component'
 import { TeachingComponent } from './teaching/teaching.component';
-import { RecommendationsComponent } from './recommendations/recommendations.component';
-import { FilesComponent } from './files/files.component';
+//import { RecommendationsComponent } from './recommendations/recommendations.component';
+// import { FilesComponent } from './files/files.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,8 +15,8 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'publications', component: PublicationsComponent },
   { path: 'teaching', component: TeachingComponent },
-  { path: 'recommendation', component: RecommendationsComponent },
-  { path: 'files', component: FilesComponent },
+//  { path: 'recommendation', component: RecommendationsComponent },
+  // { path: 'files', component: FilesComponent },
 ];
 
 @NgModule({
