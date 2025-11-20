@@ -17,23 +17,23 @@ import { CVComponent } from './cv/cv.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
 import { TeachingComponent } from './teaching/teaching.component';
-import { RecommendationsComponent } from './recommendations/recommendations.component';
-import { FilesComponent } from './files/files.component';
+// import { RecommendationsComponent } from './recommendations/recommendations.component';
+// import { FilesComponent } from './files/files.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    ProfileComponent,
+    // ProfileComponent,
     NavListItemComponent,
     SectionHeaderComponent,
     ResearchInfoComponent,
     CVComponent,
-    PublicationsComponent,
+    // PublicationsComponent,
     HomeComponent,
     TeachingComponent,
-    RecommendationsComponent,
-    FilesComponent,
+    // RecommendationsComponent,
+    // FilesComponent,
   ],
   imports: [
     BrowserModule,

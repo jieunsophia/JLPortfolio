@@ -28,25 +28,25 @@ export class MainComponent implements OnInit {
       link: "research"
     },
     {
-      title: "Teaching & Service",
+      title: "Teaching",
       link: "teaching"
     },
-    {
-      title: "Academic Activities",
-      link: "publications"
-    },
-    {
-      title: "Education",
-      link: "profile"
-    },
-    {
-      title: "Recommendations",
-      link: "recommendation"
-    },
-    {
-      title: "Files",
-      link: "files"
-    }
+    // {
+    //   title: "Academic Activities",
+    //   link: "publications"
+    // },
+    // {
+    //   title: "Education",
+    //   link: "profile"
+    // },
+    // {
+    //   title: "Recommendations",
+    //   link: "recommendation"
+    // },
+    // {
+    //   title: "Files",
+    //   link: "files"
+    // }
   ]
 
   constructor(private observer: BreakpointObserver, private router: Router) { }
