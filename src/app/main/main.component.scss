@@ -17,9 +17,13 @@ header {
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("../../assets/images/bg_beige.png");
+        //background-image: url("../../assets/images/bg_beige.png");
+        background-image: url("../../assets/images/pink3_2.png");
         background-size: cover; /* Adjust as needed */
         background-position: center; /* Adjust as needed */
+
+        //background-color: #a3747e;  /* dusty pink */
+
         transform: scaleX(-1); /* Flip the background horizontally */
         z-index: -1; /* Ensure it's behind the content */
       }
